@@ -1,9 +1,9 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.62])
-AC_INIT([XFLAIM], [5.2], [flaim-users@lists.sourceforge.net])
-AC_CANONICAL_SYSTEM
+AC_PREREQ([2.69])
+AC_INIT([XFLAIM],[5.2],[flaim-users@lists.sourceforge.net])
+AC_CANONICAL_TARGET
 AM_INIT_AUTOMAKE([-Wall -Werror])
 LT_PREREQ([2.2])
 LT_INIT([dlopen])

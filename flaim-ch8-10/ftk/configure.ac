@@ -1,8 +1,8 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.62])
-AC_INIT([FLAIMTK], [1.2], [flaim-users@lists.sourceforge.net])
+AC_PREREQ([2.69])
+AC_INIT([FLAIMTK],[1.2],[flaim-users@lists.sourceforge.net])
 AM_INIT_AUTOMAKE([-Wall -Werror])
 LT_PREREQ([2.2])
 LT_INIT([dlopen])
